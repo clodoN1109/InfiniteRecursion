@@ -1,0 +1,248 @@
+
+header img{
+
+	transform: scale(0.9);
+
+}
+
+header{
+	width: 100%;
+	margin-bottom: 40px;
+	border-bottom-style: solid ;
+	border-bottom-width: 2px ;
+	border-color: darkgray;
+}
+
+footer{
+	border-style: solid;
+	border-width: 1px 0 0 0 ;
+	border-color: whitesmoke;
+
+}
+
+body{
+
+
+	margin: auto 0;
+	width: 100%;
+	background-color: #afe3df;
+	background-size: cover;
+
+}
+
+.container{
+
+	display: inline-flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+
+	
+
+
+}
+
+.container img{
+
+	margin-left: 40px;
+
+} 
+
+ul{
+	margin: 0;
+}
+
+
+a{
+
+	color: black;
+	text-decoration: none;
+	transition: all 0.7s;
+
+}
+
+ul{
+	list-style-type: none;
+	
+}
+
+.topic{
+
+	text-indent: 10px;	
+	background-image: linear-gradient(90deg,rgba(60, 60, 60, 0.4), rgba(200, 200, 200, 0.4),transparent);
+	border-radius: 5px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+h1{
+	color: rgba(30, 30, 30, 1.0);
+}
+
+.footer-box{
+
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+
+}
+
+p, .topic, h1, h2, h3, h4, h5, h6{
+	cursor: default;
+}
+
+li{
+
+	list-style-type: none;
+	transition: all 0.7s;
+	line-height: 1.4;
+	font-size: 1em;
+	text-indent: 6px;
+	border-radius: 5px;
+}
+
+li:hover{
+
+	/*transform: translate(10px,0px);*/
+	background-image: linear-gradient(90deg,rgba(60, 60, 60, 0.4), transparent);
+}
+
+a:hover{
+	color: rgb(230, 230, 230);
+	
+}
+
+footer img{
+
+	position: relative;
+	justify-self: center;
+	opacity: 0.7;
+	border-color: whitesmoke;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.box-image:hover:before{
+
+	content: "";
+    background-image: url(./assets/heyclodo-icon-gray-inverted.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+
+
+.box-image{
+	background-image: url(./assets/heyclodo-icon-gray.jpg);
+	background-size: cover;
+	position: relative;
+	height: 100px; 
+	width: 100px ;
+}
+
+@media only screen and (max-width: 800px){
+
+	.textS{
+		
+		text-align: center;
+	}
+
+	header img{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+
+
+
+}
+
+	.container{
+
+		display: inline-flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		padding-left: 0px;
+
+	}
+
+
+}
+
+
+
+	@media only screen and (max-width: 700px){
+
+		.container img{
+
+			margin-left: 0px;
+
+		}	 
+
+	}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+	.textS{
+		
+		font-size: 10px;
+	}
+
+	.textS2{
+
+		font-size: ;
+	}
+
+	li{
+		font-size:;
+	}
+
+	ul{
+		font-size:  0.8em;
+	}
+
+
+	.textS{
+		min-width: 100%;
+
+	}
+
+	.container{
+
+		display: inline-flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		padding-left: 0px;
+
+	}
+
+	header img{
+		transform: scale(0.9);
+	}
+
+	
+
+
+
+}

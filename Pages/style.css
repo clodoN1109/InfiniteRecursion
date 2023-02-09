@@ -1,0 +1,319 @@
+
+header img{
+
+}
+
+header{
+	width: 100%;
+
+}
+
+footer{
+	border-style: solid;
+	border-width: 1px 0 0 0 ;
+	border-color: gray;
+
+}
+
+body{
+
+
+	margin: auto 0;
+	width: 100%;
+	background-color: #afe3df;
+	background-size: cover;
+
+}
+
+.container{
+
+	display: inline-flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+
+	margin-bottom: 6px;
+
+	border-style: solid;
+	border-width: 0 0 0.5px 0 ;
+	border-color: gray;
+
+
+	
+
+}
+
+.container img{
+
+	margin-left: 40px;
+
+} 
+
+ul{
+	margin: 0;
+}
+
+
+a{
+
+	color: black;
+	text-decoration: none;
+	transition: all 0.7s;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.topic{
+
+	text-indent: 10px;	
+	background-image: linear-gradient(90deg,rgba(60, 60, 60, 0.4), rgba(200, 200, 200, 0.4),transparent);
+}
+
+h1{
+	color: rgba(30, 30, 30, 1.0);
+}
+
+.footer-box{
+
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+
+}
+
+p, .topic, h1, h2, h3, h4, h5, h6{
+	cursor: default;
+}
+
+li{
+
+	list-style-type: none;
+	transition: all 0.7s;
+	line-height: 1.4;
+	font-size: 1em;
+}
+
+li:hover{
+
+	/*transform: translate(10px,0px);*/
+	background-image: linear-gradient(90deg,rgba(60, 60, 60, 0.4), transparent);
+}
+
+a:hover{
+	color: rgb(230, 230, 230);
+	
+}
+
+footer img{
+
+	justify-self: center;
+	opacity: 0.7;
+	border-color: whitesmoke;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+footer img:hover{
+	border-width: 1.5px;
+}
+
+.EssayBox{
+
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	text-indent: 60px;
+	margin-bottom: 6px;
+
+
+}
+
+.Essay{
+
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgba(220, 220, 220, 1.0);
+}
+
+.essay-title{
+	text-align: center;
+	text-indent: 0;
+}
+
+
+.text-margin{
+	width: 100%;
+	height: 100%;
+}
+
+.left-text-margin{
+	background-color: gray;
+	background-image: url(C:/Users/Clodomir/Documents/Clodo/InfiniteRecursion.com/assets/fractal-tree-left.jpg);
+	background-size: cover;
+}
+
+.right-text-margin{
+	background-color: gray;
+	background-image: url(C:/Users/Clodomir/Documents/Clodo/InfiniteRecursion.com/assets/fractal-tree-right.jpg);
+	background-size: cover;
+
+}
+
+
+footer img{
+
+	position: relative;
+	justify-self: center;
+	opacity: 0.7;
+	border-color: whitesmoke;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.box-image:hover:before{
+
+	content: "";
+    background-image: url(C:/Users/Clodomir/Documents/Clodo/InfiniteRecursion.com/assets/heyclodo-icon-gray-inverted.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+
+
+.box-image{
+	background-image: url(C:/Users/Clodomir/Documents/Clodo/InfiniteRecursion.com/assets/heyclodo-icon-gray.jpg);
+	background-size: cover;
+	position: relative;
+	height: 100px; 
+	width: 100px ;
+}
+
+
+@media only screen and (max-width: 800px){
+
+	.textS{
+		
+		text-align: center;
+	}
+
+	header img{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	}
+
+	.container{
+
+		display: inline-flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		padding-left: 0px;
+
+	}
+
+		p{
+		font-size: 0.8em;
+	}
+
+		
+
+}
+
+@media only screen and (max-width: 700px){
+
+	.container img{
+
+		margin-left: 0px;
+
+	}	 
+
+	.EssayBox{
+
+			grid-template-columns: 1fr 6fr 1fr;
+
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+	.EssayBox{
+
+	grid-template-columns: 0fr 6fr 0fr;
+
+}
+
+
+	.textS{
+		
+		font-size: 10px;
+	}
+
+
+	li{
+		font-size:;
+	}
+
+	ul{
+		font-size:  0.8em;
+	}
+
+	.essay-title{
+
+		font-size: 0.6em;
+		text-align: center;
+
+	}
+
+
+	.textS{
+		min-width: 100%;
+
+	}
+
+	p{
+		font-size: 0.5em;
+	}
+
+	.container{
+
+		display: inline-flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		padding-left: 0px;
+
+	}
+
+	header img{
+		transform: scale(0.9);
+	}
+
+
+	
+}
