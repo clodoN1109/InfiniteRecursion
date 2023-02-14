@@ -4,32 +4,48 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>infiniteRecursion.com</title>
-	<link rel="icon" href="assets/logo-beta-gray.jpg">
+	<link rel="icon" href="assets/system.gif">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="font-family: courier; font-weight: bold; background-image: linear-gradient(90deg,rgb(220,220,220),rgb(200,200,200),rgb(140,140,140),rgb(70,70,70));">
+<body style="font-family: courier; font-weight: bold; background-image: url(./assets/fractal.gif); background-size: cover">
 
 
 
-	<header class="container" style="background-image: url(C:/Users/Clodomir/Documents/Clodo/InfiniteRecursion.com/assets/img-F0.jpg);">
-		
-		<img src=".\assets\logo-beta-gray.jpg" alt="logo" width="160" height="160">
+	<header class="container text-center">
 
-		<div class="textS" >
-			<h1>infiniteRecursion</h1>
-			<h2>Collection of Philosophical Essays</h2>
-			<h4>On the Existence, Nature and Relations of Things</h4>
+		<div class="languageBar">
+
+			<div id="langBox" class="langBox">
+   
+				<div class="langOption" style="color: azure; font-family: 'Courier New', Courier, monospace;">PT</div>
+				<div class="toggleBox">
+				  <input type="checkbox" id="toggle" onClick="langSelection()" style="width: 0; margin: 0;"/>
+				  <label for="toggle"></label>  
+				</div>
+				<div class="langOption" style="color: azure; font-family: 'Courier New', Courier, monospace;">EN</div>
+
+			</div>
+
 		</div>
+			
+		<img id="projectLogo" class="logo" src=".\assets\system.gif" alt="logo" width="160" height="160">
+	
+		<div class="" id="textHeader" >
+			<h1>infiniteRecursion</h1>
+			<h2>Philosophical Essays</h2>
+			<h4>On the Existence and Relations of Things</h4>
+		</div>
+
+		
 
 		
 
 	</header>	
 	
 
-	<ul class="textS2">
+	<ul class="menu textS2">
 		<div class="topic">Computer Programming</div>
 			<ul>
-				<li><a href=".\Pages\ComputerProgramming\InTheArtofComputerProgramming\TheArtofComputerProgramming.html">In Knuth's The Art of Computer Programming - Exercises and Discusions</a></li>
 				<li><a href="">Philosophy of Computer Programming</a></li>
 				<li><a href="">Data Structures and Algorithms</a></li>
 				<li><a href="">Design of Computer Programs</a></li>
@@ -44,7 +60,7 @@
 			<ul>
 
 				<li><a href="">The Subject of Physics</a></li>
-				<li><a href="">The N-Body Problem</a> - <a href="">simulation</a> -</li>
+				<li><a href="">The N-Body Problem</a>
 				<li><a href="">On Measurement</a></li>
 				<li><a href="">The Ratio of Ratios Solution</a></li>
 				<li><a href="">The Apparent Movement of the Stars - Bradley's Discovery</a></li>
@@ -69,7 +85,6 @@
 		<div class="topic">Communication</div>
 			<ul>
 				<li><a href=".\Pages\Communication\indexA.html">Definition of Definition</a></li>
-				<li><a href="">Nature of Economy</a></li>
 				<li><a href="">Segurança</a></li>
 				<li><a href="">Natureza e Evolução do Transporte de Inforrmação e Recursos</a></li>
 			</ul>
@@ -92,29 +107,25 @@
 			
 	</ul>
 
-
-	<footer style="background-image: url(./assets/img-F0.jpg); background-size: cover;">
+    <div class="footer-box">
+      
+		<p class="text-center" style="width: 100px; margin: 10px auto; border-radius: 2px ;background-color: rgba(0,0,0, 0.2);  "> by Clodo</p>
 		
-		<div class="footer-box">
-			
-			<p style="font-family:courier;"> by <a style="transition: all 0s" href=".\index.html">Clodo</p></a>
-
-			<a class="box-image" href="./index.html">
-				
-			</a>
-
-			<a href=".\index.html" style="transition: all 0s;"><div class="clodo-web-address" style="font-size: 0.8rem; transition: all 0s;">heyclodo.com</div></a> 
-			</br>
-
-
-
-		</div>
+		<a class="box-image" href="https://clodo.me">
+		  
+		</a>
 		
+		<a href="C:\Users\Clodomir\Documents\Clodo\heyClodo.com\index.html" style="transition: all 0s;">
+		  <div class="clodoDotCom" style="font-size: 1rem; transition: all 0s; color: rgb(53, 46, 46);">clodo.com</div>
+		</a> 
+	  </br>
+	  
+	  
+	  
+	</div>
 
 
-
-	</footer>
-
+	<script type="text/javascript" src="./main.js"></script>
 
 </body>
 
